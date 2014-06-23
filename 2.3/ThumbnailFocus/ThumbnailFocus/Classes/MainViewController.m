@@ -36,7 +36,7 @@
         // iPad
         NSLog(@"this is ipad");
         return UIInterfaceOrientationMaskAll;
-        
+
     }
     else {
         // それ以外

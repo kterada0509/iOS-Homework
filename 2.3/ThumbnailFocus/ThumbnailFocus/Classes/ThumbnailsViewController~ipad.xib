@@ -20,7 +20,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="A91-Wu-tfG">
-                    <rect key="frame" x="428" y="52" width="320" height="180"/>
+                    <rect key="frame" x="428" y="47" width="320" height="180"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PUL-ph-BIB">
