@@ -47,7 +47,7 @@ static NSTimeInterval const kDefaultOrientationAnimationDuration = 0.4;
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    // ⬇Answer：    
+    // ⬇Answer： 縦表示（ホームボタン下）を許可
     return UIInterfaceOrientationMaskPortrait;
 }
 
@@ -76,12 +76,18 @@ static NSTimeInterval const kDefaultOrientationAnimationDuration = 0.4;
 /////////////////////////////////////////////////////////////
 - (void)updateOrientationAnimated:(BOOL)animated
 {
+    //回転、拡大、縮小、平行移動などの操作を行う構造体
     CGAffineTransform transform;
+    //Doublt値で、秒数を表す
     NSTimeInterval duration = kDefaultOrientationAnimationDuration;
 
+    //端末の状態が、前と同じの場合の処理
+    //※何もしない
     if([UIDevice currentDevice].orientation == self.previousOrientation)
         return;
 
+    //回転前後が、どちらも横向き　若しくは、縦画面の場合
+    //durationを２倍にする
     if((UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation) && UIInterfaceOrientationIsLandscape(self.previousOrientation))
        || (UIInterfaceOrientationIsPortrait([UIDevice currentDevice].orientation) && UIInterfaceOrientationIsPortrait(self.previousOrientation)))
     {

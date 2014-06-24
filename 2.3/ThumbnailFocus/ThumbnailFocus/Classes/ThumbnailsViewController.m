@@ -10,7 +10,6 @@
 
 @interface ThumbnailsViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *imageViews;
 
 
@@ -51,7 +50,6 @@
     // iPadの処理
     if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
         NSLog(@"ipad view");
-        //[self.focusManager installOnView:self.imageView];
         for(UIImageView *image in self.imageViews){
             [self.focusManager installOnView:image];
         }

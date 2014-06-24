@@ -6,7 +6,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThumbnailsViewController">
             <connections>
-                <outlet property="imageView" destination="A91-Wu-tfG" id="N1b-Pm-9C6"/>
                 <outlet property="view" destination="iN0-l3-epB" id="lv4-U3-e65"/>
                 <outletCollection property="imageViews" destination="A91-Wu-tfG" id="hif-lR-h2x"/>
                 <outletCollection property="imageViews" destination="PUL-ph-BIB" id="lud-vO-pCI"/>
