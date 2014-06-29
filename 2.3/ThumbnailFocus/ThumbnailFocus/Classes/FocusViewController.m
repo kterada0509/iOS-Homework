@@ -28,20 +28,23 @@ static NSTimeInterval const kDefaultOrientationAnimationDuration = 0.4;
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    // ⬇Answer：
+    // ⬇Answer：向きの変化があったらNSNotificationCenterに向きの変化を感知させる
+    //　そして、向きの変化があったら、orientationDidChangeNotificationを呼ぶ
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(orientationDidChangeNotification:)
                                                  name:UIDeviceOrientationDidChangeNotification object:nil];
-    // ⬇Answer：    
+    // ⬇Answer： 向きの変化を感知を開始
+    // 呼ばなくても、通知がくるが、orientationの値が常にゼロ(UIDeviceOrientationUnknown)になる
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    // ⬇Answer：
+    // ⬇Answer：通知を受信を停止
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIDeviceOrientationDidChangeNotification object:nil];
-    // ⬇Answer：
+    // ⬇Answer：回転通知の無効化
+    //beginGeneratingDeviceOrientationNotificationsと対になる
     [[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
 }
 
@@ -94,62 +97,83 @@ static NSTimeInterval const kDefaultOrientationAnimationDuration = 0.4;
         duration *= 2;
     }
 
+    //画面が通常の場合と親クラスが回転を許可している場合だけ
     if(([UIDevice currentDevice].orientation == UIInterfaceOrientationPortrait)
        || [self isParentSupportingInterfaceOrientation:(UIInterfaceOrientation)[UIDevice currentDevice].orientation]) {
+        //画面をもとに戻す
         transform = CGAffineTransformIdentity;
     }else {
+        //　画面の向き毎に処理を実装
         switch ([UIDevice currentDevice].orientation){
+            //ホームボタンの位置が左の場合
             case UIInterfaceOrientationLandscapeLeft:
                 if(self.parentViewController.interfaceOrientation == UIInterfaceOrientationPortrait) {
+                    //現在の設定から反時計周り90°回転
                     transform = CGAffineTransformMakeRotation(-M_PI_2);
                 }else {
+                    //現在の設定から時計回りに90°回転
                     transform = CGAffineTransformMakeRotation(M_PI_2);
                 }
                 break;
-
+            // ホームボタンの位置が右の場合
             case UIInterfaceOrientationLandscapeRight:
+                //状態が、ホームボタンが下にある場合
                 if(self.parentViewController.interfaceOrientation == UIInterfaceOrientationPortrait) {
+                    //現在の設定から時計回り90°回転
                     transform = CGAffineTransformMakeRotation(M_PI_2);
                 }else {
+                    //現在の設定から反時計回り90°回転
                     transform = CGAffineTransformMakeRotation(-M_PI_2);
                 }
                 break;
-
+            // ホームボタンの位置が下の場合
             case UIInterfaceOrientationPortrait:
+                //画面を元に戻す
                 transform = CGAffineTransformIdentity;
                 break;
-
+            // ホームボタンの位置が上の場合
             case UIInterfaceOrientationPortraitUpsideDown:
+                //時計周りに１８０°回転
                 transform = CGAffineTransformMakeRotation(M_PI);
                 break;
-
+            //画面が下向きの場合
             case UIDeviceOrientationFaceDown:
+            //画面が上向きの場合
             case UIDeviceOrientationFaceUp:
+            //向きが取得出来ない場合
             case UIDeviceOrientationUnknown:
                 return;
         }
     }
-
+    // frameに初期値(0,0)を設定
     CGRect frame = CGRectZero;
+    //updateOrientationAnimatedが、YESで発火されたとき
     if(animated) {
+        //現在の状態をframeに格納
         frame = self.contentView.frame;
+        //アニメーションの実行
+        //取得した回転を実施後、変更されるframeの位置を再設定する
         [UIView animateWithDuration:duration
                          animations:^{
                              self.contentView.transform = transform;
                              self.contentView.frame = frame;
                          }];
     }else {
+        //アニメーションなし
         frame = self.contentView.frame;
         self.contentView.transform = transform;
         self.contentView.frame = frame;
     }
+    //次回との比較用に現在の向きを保持
     self.previousOrientation = [UIDevice currentDevice].orientation;
 }
 
 #pragma mark - Notifications
 // ⬇Answer：こちはいつ呼ばれますか？
+// 画面の向きが変わったとき
 - (void)orientationDidChangeNotification:(NSNotification *)notification
 {
+    //updateOrientationAnimatedを発火
     [self updateOrientationAnimated:YES];
 }
 @end
