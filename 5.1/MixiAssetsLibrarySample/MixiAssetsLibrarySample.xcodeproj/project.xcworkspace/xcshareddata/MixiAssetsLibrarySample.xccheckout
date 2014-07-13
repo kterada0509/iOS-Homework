@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11A97F87-D55F-4707-924D-89BF287B5CBC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MixiAssetsLibrarySample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BCB0FD8E-E32B-4F44-9FF3-65C74EC0F7EB</key>
+		<string>ssh://github.com/kterada0509/iOS-Homework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>5.1/MixiAssetsLibrarySample/MixiAssetsLibrarySample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BCB0FD8E-E32B-4F44-9FF3-65C74EC0F7EB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/kterada0509/iOS-Homework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BCB0FD8E-E32B-4F44-9FF3-65C74EC0F7EB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BCB0FD8E-E32B-4F44-9FF3-65C74EC0F7EB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Homework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
