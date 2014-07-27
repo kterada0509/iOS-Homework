@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5ACCBAA1-D831-421D-B696-2D830354AD2A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIWebViewSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7C9019D2-8E80-4F84-AF46-A8A31C20EA3C</key>
+		<string>ssh://github.com/kterada0509/iOS-Homework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>6/UIWebViewSample/UIWebViewSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7C9019D2-8E80-4F84-AF46-A8A31C20EA3C</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/kterada0509/iOS-Homework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7C9019D2-8E80-4F84-AF46-A8A31C20EA3C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7C9019D2-8E80-4F84-AF46-A8A31C20EA3C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Homework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
