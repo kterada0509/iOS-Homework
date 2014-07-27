@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6BC202A197CDE940011B2A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BC2029197CDE940011B2A0 /* Foundation.framework */; };
+		F6BC202C197CDE940011B2A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BC202B197CDE940011B2A0 /* CoreGraphics.framework */; };
+		F6BC202E197CDE940011B2A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BC202D197CDE940011B2A0 /* UIKit.framework */; };
+		F6BC2034197CDE940011B2A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6BC2032197CDE940011B2A0 /* InfoPlist.strings */; };
+		F6BC2036197CDE940011B2A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC2035197CDE940011B2A0 /* main.m */; };
+		F6BC203A197CDE940011B2A0 /* TDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC2039197CDE940011B2A0 /* TDSAppDelegate.m */; };
+		F6BC2040197CDE940011B2A0 /* TDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC203F197CDE940011B2A0 /* TDSViewController.m */; };
+		F6BC2042197CDE940011B2A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BC2041197CDE940011B2A0 /* Images.xcassets */; };
+		F6BC2049197CDE940011B2A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BC2048197CDE940011B2A0 /* XCTest.framework */; };
+		F6BC204A197CDE940011B2A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BC2029197CDE940011B2A0 /* Foundation.framework */; };
+		F6BC204B197CDE940011B2A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BC202D197CDE940011B2A0 /* UIKit.framework */; };
+		F6BC2053197CDE940011B2A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6BC2051197CDE940011B2A0 /* InfoPlist.strings */; };
+		F6BC2055197CDE940011B2A0 /* UIWebViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC2054197CDE940011B2A0 /* UIWebViewSampleTests.m */; };
+		F6BC205F197CDEE10011B2A0 /* TDSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6BC205E197CDEE10011B2A0 /* TDSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6BC204C197CDE940011B2A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6BC201E197CDE940011B2A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BC2025197CDE940011B2A0;
+			remoteInfo = UIWebViewSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6BC2026197CDE940011B2A0 /* UIWebViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BC2029197CDE940011B2A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6BC202B197CDE940011B2A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6BC202D197CDE940011B2A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6BC2031197CDE940011B2A0 /* UIWebViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebViewSample-Info.plist"; sourceTree = "<group>"; };
+		F6BC2033197CDE940011B2A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6BC2035197CDE940011B2A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6BC2037197CDE940011B2A0 /* UIWebViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		F6BC2038197CDE940011B2A0 /* TDSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSAppDelegate.h; sourceTree = "<group>"; };
+		F6BC2039197CDE940011B2A0 /* TDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSAppDelegate.m; sourceTree = "<group>"; };
+		F6BC203E197CDE940011B2A0 /* TDSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSViewController.h; sourceTree = "<group>"; };
+		F6BC203F197CDE940011B2A0 /* TDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSViewController.m; sourceTree = "<group>"; };
+		F6BC2041197CDE940011B2A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6BC2047197CDE940011B2A0 /* UIWebViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BC2048197CDE940011B2A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F6BC2050197CDE940011B2A0 /* UIWebViewSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebViewSampleTests-Info.plist"; sourceTree = "<group>"; };
+		F6BC2052197CDE940011B2A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6BC2054197CDE940011B2A0 /* UIWebViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewSampleTests.m; sourceTree = "<group>"; };
+		F6BC205E197CDEE10011B2A0 /* TDSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6BC2023197CDE940011B2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BC202C197CDE940011B2A0 /* CoreGraphics.framework in Frameworks */,
+				F6BC202E197CDE940011B2A0 /* UIKit.framework in Frameworks */,
+				F6BC202A197CDE940011B2A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BC2044197CDE940011B2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BC2049197CDE940011B2A0 /* XCTest.framework in Frameworks */,
+				F6BC204B197CDE940011B2A0 /* UIKit.framework in Frameworks */,
+				F6BC204A197CDE940011B2A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6BC201D197CDE940011B2A0 = {
+			isa = PBXGroup;
+			children = (
+				F6BC202F197CDE940011B2A0 /* UIWebViewSample */,
+				F6BC204E197CDE940011B2A0 /* UIWebViewSampleTests */,
+				F6BC2028197CDE940011B2A0 /* Frameworks */,
+				F6BC2027197CDE940011B2A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6BC2027197CDE940011B2A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6BC2026197CDE940011B2A0 /* UIWebViewSample.app */,
+				F6BC2047197CDE940011B2A0 /* UIWebViewSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6BC2028197CDE940011B2A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6BC2029197CDE940011B2A0 /* Foundation.framework */,
+				F6BC202B197CDE940011B2A0 /* CoreGraphics.framework */,
+				F6BC202D197CDE940011B2A0 /* UIKit.framework */,
+				F6BC2048197CDE940011B2A0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6BC202F197CDE940011B2A0 /* UIWebViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				F6BC2038197CDE940011B2A0 /* TDSAppDelegate.h */,
+				F6BC2039197CDE940011B2A0 /* TDSAppDelegate.m */,
+				F6BC203E197CDE940011B2A0 /* TDSViewController.h */,
+				F6BC203F197CDE940011B2A0 /* TDSViewController.m */,
+				F6BC2041197CDE940011B2A0 /* Images.xcassets */,
+				F6BC2030197CDE940011B2A0 /* Supporting Files */,
+				F6BC205E197CDEE10011B2A0 /* TDSViewController.xib */,
+			);
+			path = UIWebViewSample;
+			sourceTree = "<group>";
+		};
+		F6BC2030197CDE940011B2A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6BC2031197CDE940011B2A0 /* UIWebViewSample-Info.plist */,
+				F6BC2032197CDE940011B2A0 /* InfoPlist.strings */,
+				F6BC2035197CDE940011B2A0 /* main.m */,
+				F6BC2037197CDE940011B2A0 /* UIWebViewSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6BC204E197CDE940011B2A0 /* UIWebViewSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6BC2054197CDE940011B2A0 /* UIWebViewSampleTests.m */,
+				F6BC204F197CDE940011B2A0 /* Supporting Files */,
+			);
+			path = UIWebViewSampleTests;
+			sourceTree = "<group>";
+		};
+		F6BC204F197CDE940011B2A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6BC2050197CDE940011B2A0 /* UIWebViewSampleTests-Info.plist */,
+				F6BC2051197CDE940011B2A0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6BC2025197CDE940011B2A0 /* UIWebViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BC2058197CDE940011B2A0 /* Build configuration list for PBXNativeTarget "UIWebViewSample" */;
+			buildPhases = (
+				F6BC2022197CDE940011B2A0 /* Sources */,
+				F6BC2023197CDE940011B2A0 /* Frameworks */,
+				F6BC2024197CDE940011B2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewSample;
+			productName = UIWebViewSample;
+			productReference = F6BC2026197CDE940011B2A0 /* UIWebViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6BC2046197CDE940011B2A0 /* UIWebViewSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BC205B197CDE940011B2A0 /* Build configuration list for PBXNativeTarget "UIWebViewSampleTests" */;
+			buildPhases = (
+				F6BC2043197CDE940011B2A0 /* Sources */,
+				F6BC2044197CDE940011B2A0 /* Frameworks */,
+				F6BC2045197CDE940011B2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6BC204D197CDE940011B2A0 /* PBXTargetDependency */,
+			);
+			name = UIWebViewSampleTests;
+			productName = UIWebViewSampleTests;
+			productReference = F6BC2047197CDE940011B2A0 /* UIWebViewSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6BC201E197CDE940011B2A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TDS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kentaro.terada;
+				TargetAttributes = {
+					F6BC2046197CDE940011B2A0 = {
+						TestTargetID = F6BC2025197CDE940011B2A0;
+					};
+				};
+			};
+			buildConfigurationList = F6BC2021197CDE940011B2A0 /* Build configuration list for PBXProject "UIWebViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6BC201D197CDE940011B2A0;
+			productRefGroup = F6BC2027197CDE940011B2A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6BC2025197CDE940011B2A0 /* UIWebViewSample */,
+				F6BC2046197CDE940011B2A0 /* UIWebViewSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6BC2024197CDE940011B2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BC2042197CDE940011B2A0 /* Images.xcassets in Resources */,
+				F6BC205F197CDEE10011B2A0 /* TDSViewController.xib in Resources */,
+				F6BC2034197CDE940011B2A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BC2045197CDE940011B2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BC2053197CDE940011B2A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BC2022197CDE940011B2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BC203A197CDE940011B2A0 /* TDSAppDelegate.m in Sources */,
+				F6BC2040197CDE940011B2A0 /* TDSViewController.m in Sources */,
+				F6BC2036197CDE940011B2A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BC2043197CDE940011B2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BC2055197CDE940011B2A0 /* UIWebViewSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6BC204D197CDE940011B2A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6BC2025197CDE940011B2A0 /* UIWebViewSample */;
+			targetProxy = F6BC204C197CDE940011B2A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6BC2032197CDE940011B2A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BC2033197CDE940011B2A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6BC2051197CDE940011B2A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BC2052197CDE940011B2A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6BC2056197CDE940011B2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6BC2057197CDE940011B2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6BC2059197CDE940011B2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewSample/UIWebViewSample-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewSample/UIWebViewSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6BC205A197CDE940011B2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewSample/UIWebViewSample-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewSample/UIWebViewSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6BC205C197CDE940011B2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIWebViewSample.app/UIWebViewSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewSample/UIWebViewSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIWebViewSampleTests/UIWebViewSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F6BC205D197CDE940011B2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIWebViewSample.app/UIWebViewSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewSample/UIWebViewSample-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewSampleTests/UIWebViewSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6BC2021197CDE940011B2A0 /* Build configuration list for PBXProject "UIWebViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BC2056197CDE940011B2A0 /* Debug */,
+				F6BC2057197CDE940011B2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BC2058197CDE940011B2A0 /* Build configuration list for PBXNativeTarget "UIWebViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BC2059197CDE940011B2A0 /* Debug */,
+				F6BC205A197CDE940011B2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6BC205B197CDE940011B2A0 /* Build configuration list for PBXNativeTarget "UIWebViewSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BC205C197CDE940011B2A0 /* Debug */,
+				F6BC205D197CDE940011B2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6BC201E197CDE940011B2A0 /* Project object */;
+}
