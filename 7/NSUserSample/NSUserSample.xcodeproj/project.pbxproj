@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60E5A6F19987236005DF7B9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F60E5A6E19987236005DF7B9 /* Settings.bundle */; };
 		F6640C67198A633B00E06C3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6640C66198A633B00E06C3D /* Foundation.framework */; };
 		F6640C69198A633B00E06C3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6640C68198A633B00E06C3D /* CoreGraphics.framework */; };
 		F6640C6B198A633B00E06C3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6640C6A198A633B00E06C3D /* UIKit.framework */; };
 		F6640C71198A633B00E06C3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6640C6F198A633B00E06C3D /* InfoPlist.strings */; };
 		F6640C73198A633B00E06C3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6640C72198A633B00E06C3D /* main.m */; };
 		F6640C77198A633B00E06C3D /* TDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6640C76198A633B00E06C3D /* TDSAppDelegate.m */; };
-		F6640C7A198A633B00E06C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6640C78198A633B00E06C3D /* Main.storyboard */; };
 		F6640C7D198A633B00E06C3D /* TDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6640C7C198A633B00E06C3D /* TDSViewController.m */; };
 		F6640C7F198A633B00E06C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6640C7E198A633B00E06C3D /* Images.xcassets */; };
 		F6640C86198A633B00E06C3D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6640C85198A633B00E06C3D /* XCTest.framework */; };
@@ -21,6 +21,7 @@
 		F6640C88198A633B00E06C3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6640C6A198A633B00E06C3D /* UIKit.framework */; };
 		F6640C90198A633B00E06C3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6640C8E198A633B00E06C3D /* InfoPlist.strings */; };
 		F6640C92198A633B00E06C3D /* NSUserSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6640C91198A633B00E06C3D /* NSUserSampleTests.m */; };
+		F6640C9C198A637D00E06C3D /* TDSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6640C9B198A637D00E06C3D /* TDSViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F60E5A6E19987236005DF7B9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		F6640C63198A633B00E06C3D /* NSUserSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSUserSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6640C66198A633B00E06C3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F6640C68198A633B00E06C3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +46,6 @@
 		F6640C74198A633B00E06C3D /* NSUserSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserSample-Prefix.pch"; sourceTree = "<group>"; };
 		F6640C75198A633B00E06C3D /* TDSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSAppDelegate.h; sourceTree = "<group>"; };
 		F6640C76198A633B00E06C3D /* TDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSAppDelegate.m; sourceTree = "<group>"; };
-		F6640C79198A633B00E06C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6640C7B198A633B00E06C3D /* TDSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSViewController.h; sourceTree = "<group>"; };
 		F6640C7C198A633B00E06C3D /* TDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSViewController.m; sourceTree = "<group>"; };
 		F6640C7E198A633B00E06C3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		F6640C8D198A633B00E06C3D /* NSUserSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserSampleTests-Info.plist"; sourceTree = "<group>"; };
 		F6640C8F198A633B00E06C3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6640C91198A633B00E06C3D /* NSUserSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserSampleTests.m; sourceTree = "<group>"; };
+		F6640C9B198A637D00E06C3D /* TDSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDSViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +116,11 @@
 			children = (
 				F6640C75198A633B00E06C3D /* TDSAppDelegate.h */,
 				F6640C76198A633B00E06C3D /* TDSAppDelegate.m */,
-				F6640C78198A633B00E06C3D /* Main.storyboard */,
 				F6640C7B198A633B00E06C3D /* TDSViewController.h */,
 				F6640C7C198A633B00E06C3D /* TDSViewController.m */,
 				F6640C7E198A633B00E06C3D /* Images.xcassets */,
 				F6640C6D198A633B00E06C3D /* Supporting Files */,
+				F6640C9B198A637D00E06C3D /* TDSViewController.xib */,
 			);
 			path = NSUserSample;
 			sourceTree = "<group>";
@@ -130,6 +132,7 @@
 				F6640C6F198A633B00E06C3D /* InfoPlist.strings */,
 				F6640C72198A633B00E06C3D /* main.m */,
 				F6640C74198A633B00E06C3D /* NSUserSample-Prefix.pch */,
+				F60E5A6E19987236005DF7B9 /* Settings.bundle */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,8 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6640C7F198A633B00E06C3D /* Images.xcassets in Resources */,
+				F6640C9C198A637D00E06C3D /* TDSViewController.xib in Resources */,
+				F60E5A6F19987236005DF7B9 /* Settings.bundle in Resources */,
 				F6640C71198A633B00E06C3D /* InfoPlist.strings in Resources */,
-				F6640C7A198A633B00E06C3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +285,6 @@
 				F6640C70198A633B00E06C3D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F6640C78198A633B00E06C3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6640C79198A633B00E06C3D /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		F6640C8E198A633B00E06C3D /* InfoPlist.strings */ = {
@@ -377,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSUserSample/NSUserSample-Prefix.pch";
 				INFOPLIST_FILE = "NSUserSample/NSUserSample-Info.plist";
@@ -390,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSUserSample/NSUserSample-Prefix.pch";
 				INFOPLIST_FILE = "NSUserSample/NSUserSample-Info.plist";
@@ -457,6 +455,7 @@
 				F6640C97198A633B00E06C3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6640C98198A633B00E06C3D /* Build configuration list for PBXNativeTarget "NSUserSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +464,7 @@
 				F6640C9A198A633B00E06C3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

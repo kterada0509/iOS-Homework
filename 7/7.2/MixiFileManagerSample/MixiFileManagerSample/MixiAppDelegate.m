@@ -1,27 +1,27 @@
 //
-//  TDSAppDelegate.m
-//  NSUserSample
+//  MixiAppDelegate.m
+//  MixiFileManagerSample
 //
-//  Created by kentaro terada on 2014/07/31.
-//  Copyright (c) 2014年 kentaro.terada. All rights reserved.
+//  Created by 田村 航弥 on 2013/05/09.
+//  Copyright (c) 2013年 mixi. All rights reserved.
 //
 
-#import "TDSAppDelegate.h"
+#import "MixiAppDelegate.h"
 
-#import "TDSViewController.h"
+#import "MixiViewController.h"
 
-@implementation TDSAppDelegate
+@implementation MixiAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.viewController = [[TDSViewController alloc] initWithNibName:@"TDSViewController" bundle:nil];
+    // Override point for customization after application launch.
+    self.viewController = [[MixiViewController alloc] initWithNibName:@"MixiViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    // Override point for customization after application launch.
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
